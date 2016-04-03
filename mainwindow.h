@@ -16,8 +16,9 @@ public:
     ~MainWindow();
 
     int die1, die2, die3 = 0;
-    int total;
+    int total = 0;
     int subNum;
+    int subNum1;
     int strength;
     int stamina;
     int intellect;

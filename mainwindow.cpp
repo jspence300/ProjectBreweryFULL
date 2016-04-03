@@ -44,10 +44,12 @@ void MainWindow::on_charGen_clicked()
 }
 void MainWindow::updateCharacter()
 {
+
     subNum = (rand() % 4);
+    subNum1 = (rand() % 2);
     charN = cName[subNum];
     charClass = cClass[subNum];
-    charGender = cGender[subNum];
+    charGender = cGender[subNum1];
 
     QPixmap donPix("C:/Users/zach/Desktop/projpics/trump.png");
     QPixmap hillPix("C:/Users/zach/Desktop/projpics/hill.png");
